@@ -1,0 +1,63 @@
+** start of undefined **
+
+body{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    background-color:rgb(246, 244, 253)}
+
+h1,h2{Text-align:center;
+}
+
+p{font-size:1.2rem;
+border-top:0;
+text-align: center;}
+
+
+main{background-color:rgb(222, 221, 226)}
+
+body{background-color:}
+
+
+#img-div {
+  display: flex;               /* Usar flexbox para centrar contenido */
+  flex-direction: column;      /* Alinear elementos en columna */
+  justify-content: center;     /* Centrar verticalmente */
+  align-items: center;         /* Centrar horizontalmente */
+  width: 100%;                 /* Asegurarse de que el contenedor ocupe todo el ancho */
+  max-width: 800px;            /* Establecer un ancho máximo para el contenedor */
+  margin: 0 auto;              /* Centrar el contenedor en la página */
+  padding: 10px;               /* Agregar espacio interno */
+  border: none;
+  box-sizing: border-box;      /* Incluir padding en el cálculo del ancho */
+}
+
+/* Estilo para la imagen */
+#img-div img {
+  width: 100%;                 /* Hacer que la imagen ocupe todo el ancho del contenedor */
+  max-width: 100%;             /* Evitar que la imagen exceda su tamaño original */
+  height: auto;                /* Mantener la proporción de la imagen */
+  border-radius: 10px;         /* Opcional: esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+/* Estilo para el pie de foto */
+figcaption {
+  display: block;              /* Asegurar que se muestre como bloque */
+  text-align: center;          /* Centrar el texto */
+  margin-top: 10px;            /* Agregar un espacio entre la imagen y el texto */
+  font-style: italic;          /* Texto en cursiva */
+  font-size: 14px;             /* Tamaño de fuente */
+  color: #555;                 /* Color del texto */
+}
+
+
+ul{max-width: 800px;
+    margin: 0 auto 100px auto;
+    text-align: justify;
+    line-height: 1.6;
+    font-size:1.1rem;}
+
+span{font-weight:700}    
+
+** end of undefined **
